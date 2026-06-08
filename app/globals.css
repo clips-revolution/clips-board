@@ -1542,9 +1542,9 @@ footer {
 }
 
 .tool-brand-title {
-  font-size: 1.5rem;
+  font-size: 0.95rem;
   font-weight: 700;
-  color: var(--foreground);
+  color: var(--text-muted);
   margin-bottom: 0.5rem;
   text-align: center;
   letter-spacing: -0.5px;
@@ -1560,6 +1560,9 @@ footer {
   }
   .page-intro {
     margin-bottom: 1.5rem;
+  }
+  .tool-brand-title {
+    font-size: 0.82rem;
   }
   .page-intro h1 {
     font-size: 1.6rem;
