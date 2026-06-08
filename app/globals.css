@@ -1516,3 +1516,17 @@ footer {
     align-self: flex-start;
   }
 }
+
+.tool-brand-title {
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.45);
+  margin-bottom: 0.6rem;
+  text-align: center;
+  letter-spacing: -0.2px;
+}
+
+.tool-brand-title span {
+  color: var(--primary-hover);
+}
+

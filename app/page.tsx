@@ -228,6 +228,9 @@ export default function Home() {
           <main>
             {/* Page Intro — no clips.board label */}
             <div className="page-intro reveal visible">
+              <div className="tool-brand-title">
+                clips.<span>board</span>
+              </div>
               <h1>מחולל סטוריבורד חכם</h1>
               <p>
                 הפוך רעיונות גולמיים בעברית ללוחות סטוריבורד ויזואליים,
