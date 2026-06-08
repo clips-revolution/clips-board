@@ -228,6 +228,10 @@ export default function Home() {
           <main>
             {/* Page Intro — no clips.board label */}
             <div className="page-intro reveal visible">
+              <div className="tool-logo-icon">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/favicon-logo.png" alt="clips.Revolution Logo" />
+              </div>
               <div className="tool-brand-title">
                 clips.<span>board</span>
               </div>
