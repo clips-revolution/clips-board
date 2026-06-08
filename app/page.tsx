@@ -252,8 +252,8 @@ export default function Home() {
             <Image
               src="/favicon-logo.png"
               alt="clips.Revolution"
-              width={30}
-              height={30}
+              width={36}
+              height={36}
               className="footer-logo"
             />
           </footer>
