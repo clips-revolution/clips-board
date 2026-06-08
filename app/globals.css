@@ -895,6 +895,11 @@ footer {
   pointer-events: none;
 }
 
+.password-field {
+  -webkit-text-security: disc !important;
+  text-security: disc !important;
+}
+
 .password-field:focus {
   border-color: var(--primary) !important;
   box-shadow: 0 0 10px rgba(168, 85, 247, 0.2);

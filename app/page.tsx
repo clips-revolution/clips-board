@@ -111,7 +111,7 @@ export default function Home() {
             <form onSubmit={handleLogin} style={{ width: '100%', zIndex: 10, display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               <div style={{ width: '100%' }}>
                 <input
-                  type="password"
+                  type="text"
                   placeholder="הזן סיסמה..."
                   className="password-field"
                   value={password}
@@ -127,6 +127,7 @@ export default function Home() {
                     textAlign: 'center',
                     fontSize: '0.95rem',
                   }}
+                  autoComplete="new-password"
                   autoFocus
                 />
                 {loginError && (
