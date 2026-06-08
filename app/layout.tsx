@@ -1,15 +1,5 @@
 import type { Metadata } from 'next';
-import localFont from 'next/font/local';
 import './globals.css';
-
-// Load the custom Hebrew font copied from clips.Revolution
-const abraham = localFont({
-  src: './fonts/Abraham-Regular.ttf',
-  variable: '--font-sans',
-  weight: '100 900',
-  style: 'normal',
-  display: 'swap',
-});
 
 export const metadata: Metadata = {
   title: 'clips.board — מחולל סטוריבורד Ai',
@@ -25,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="he" dir="rtl" className={abraham.variable}>
+    <html lang="he" dir="rtl">
       <body>
         {children}
       </body>
