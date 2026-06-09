@@ -5,7 +5,11 @@ export const metadata: Metadata = {
   title: 'clips.board — מחולל סטוריבורד Ai',
   description: 'מחולל לוחות תמונות ותסריטים חזותיים מבוסס בינה מלאכותית להפקות וידאו - מבית clips.Revolution.',
   icons: {
-    icon: '/favicon-logo.png',
+    icon: [
+      { url: '/favicon-logo.png', sizes: '657x657', type: 'image/png' },
+      { url: '/favicon.ico', type: 'image/x-icon' }
+    ],
+    apple: '/favicon-logo.png',
   },
 };
 
