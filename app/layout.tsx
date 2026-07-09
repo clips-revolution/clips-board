@@ -11,6 +11,12 @@ export const metadata: Metadata = {
     ],
     apple: '/favicon-logo.png',
   },
+  openGraph: {
+    images: ['https://clipsrevolution.com/social-preview.png'],
+  },
+  twitter: {
+    images: ['https://clipsrevolution.com/social-preview.png'],
+  },
 };
 
 export default function RootLayout({
