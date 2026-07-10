@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: 'Abraham';
   src: url('/fonts/Abraham-Regular.ttf') format('truetype');
@@ -21,7 +27,7 @@
   --text-muted-2: rgba(255, 255, 255, 0.25);
   --success: #10b981;
   --error: #ef4444;
-  --font-sans: 'Abraham', 'Segoe UI', system-ui, sans-serif;
+  --font-sans: 'Outfit', 'Abraham', 'Segoe UI', system-ui, sans-serif;
   --font-mono: 'Courier New', Courier, monospace;
 }
 
