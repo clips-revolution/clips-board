@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   verification: { google: 'yZhAE9iG1d8WpdIQTvmJALGnkv7lbU2So1Lt_8nfWQQ' },
 
   title: 'clips.board — מחולל סטוריבורד Ai',
-  description: 'מחולל לוחות תמונות ותסריטים חזותיים מבוסס בינה מלאכותית להפקות וידאו - מבית clips.Revolution.',
+  description: 'מחולל לוחות תמונות ותסריטים חזותיים מבוסס בינה מלאכותית להפקות וידאו - מבית Clips Revolution',
     icons: [
     { rel: 'icon', url: '/favicon-v2.ico' },
     { rel: 'icon', url: '/favicon-48-v2.png', sizes: '48x48', type: 'image/png' },
