@@ -13,10 +13,6 @@ export const metadata: Metadata = {
     { rel: 'apple-touch-icon', url: '/favicon-512-v2.png', sizes: '512x512', type: 'image/png' },
   ],
 
-      { url: '/favicon.ico', type: 'image/x-icon' }
-    ],
-    apple: '/favicon-logo.png',
-  },
   openGraph: {
     images: ['https://clipsrevolution.com/social-preview.png'],
   },
