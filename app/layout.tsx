@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  verification: { google: 'yZhAE9iG1d8WpdIQTvmJALGnkv7lbU2So1Lt_8nfWQQ' },
+
   title: 'clips.board — מחולל סטוריבורד Ai',
   description: 'מחולל לוחות תמונות ותסריטים חזותיים מבוסס בינה מלאכותית להפקות וידאו - מבית clips.Revolution.',
     icons: [
