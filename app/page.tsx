@@ -246,17 +246,7 @@ export default function Home() {
             <StoryboardCreator />
           </main>
 
-          {/* Footer */}
-          <footer>
-            <p className="footer-text">Powered by clips.Revolution</p>
-            <Image
-              src="/favicon-logo.png"
-              alt="clips.Revolution"
-              width={36}
-              height={36}
-              className="footer-logo"
-            />
-          </footer>
+
         </>
       )}
     </>
